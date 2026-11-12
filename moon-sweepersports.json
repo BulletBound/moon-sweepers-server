@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": 27025,
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "Steam GameServer API game port (MOON_GAME_PORT)."
+    },
+    {
+        "Protocol": "Both",
+        "Port": 27026,
+        "Ref": "QueryPort",
+        "Name": "Query Port",
+        "Description": "Steam GameServer API query port (MOON_QUERY_PORT)."
+    }
+]

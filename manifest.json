@@ -1,0 +1,9 @@
+{
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "authors": ["community"],
+    "origin": "https://github.com/BulletBound/moonsweeper.git",
+    "url": "https://github.com/BulletBound/moonsweeper",
+    "imagefile": "",
+    "prefix": "MS",
+    "repotype": "AppTemplates"
+}

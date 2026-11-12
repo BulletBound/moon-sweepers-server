@@ -1,0 +1,82 @@
+[
+    {
+        "DisplayName": "Server Password",
+        "Category": "Moon Sweepers:lock",
+        "Subcategory": "Server:server:1",
+        "Description": "Shared join password (8-128 printable ASCII). Required to join.",
+        "Keywords": "password,join,server",
+        "FieldName": "ServerPassword",
+        "InputType": "Password",
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "Required": true,
+        "DefaultValue": "",
+        "Placeholder": "your-server-password",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Allowed Steam IDs",
+        "Category": "Moon Sweepers:lock",
+        "Subcategory": "Server:server:1",
+        "Description": "Optional comma-separated list of 1-15 SteamID64s. Empty allows any licensed player with the password.",
+        "Keywords": "steam,allowlist,ids",
+        "FieldName": "AllowedSteamIds",
+        "InputType": "text",
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "Required": false,
+        "DefaultValue": "",
+        "Placeholder": "7656119...",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Save Slot",
+        "Category": "Moon Sweepers:lock",
+        "Subcategory": "Server:server:1",
+        "Description": "Save slot 1-5.",
+        "Keywords": "slot,save",
+        "FieldName": "Slot",
+        "InputType": "enum",
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "Required": true,
+        "DefaultValue": "1",
+        "EnumValues": {
+            "1": "Slot 1",
+            "2": "Slot 2",
+            "3": "Slot 3",
+            "4": "Slot 4",
+            "5": "Slot 5"
+        }
+    },
+    {
+        "DisplayName": "Backup Keep Count",
+        "Category": "Moon Sweepers:lock",
+        "Subcategory": "Server:server:1",
+        "Description": "Number of confirmed shutdown backups to retain.",
+        "Keywords": "backup,keep",
+        "FieldName": "BackupKeep",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "100",
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "Required": true,
+        "DefaultValue": "10",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Time Zone",
+        "Category": "Moon Sweepers:lock",
+        "Subcategory": "Server:server:1",
+        "Description": "Container TZ value.",
+        "Keywords": "timezone,tz",
+        "FieldName": "TimeZone",
+        "InputType": "text",
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "Required": true,
+        "DefaultValue": "America/Vancouver",
+        "EnumValues": {}
+    }
+]
